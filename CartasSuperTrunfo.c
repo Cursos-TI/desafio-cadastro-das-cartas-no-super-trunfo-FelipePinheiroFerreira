@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    // 
+    // Declaração das variáveis para a carta 1
     char estado1;
     char codigo1[4];
     char nomeCidade1[100];
@@ -43,5 +43,28 @@ int main() {
     printf("Informe o Número de Pontos Turísticos: ");
     scanf("%d", &pontosTuristicos1);
 
+    // Leitura dos dados da carta 2
+    printf("\nCadastro da Carta 2:\n");
+
+    printf("Informe o Estado (letra de A a H): ");
+    scanf(" %c", &estado2);
+
+    printf("Informe o Código da Carta (ex: B03): ");
+    scanf("%s", codigo2);
+
+    printf("Informe o Nome da Cidade: ");
+    scanf(" %[^\n]", nomeCidade2);
+
+    printf("Informe a População: ");
+    scanf("%d", &populacao2);
+
+    printf("Informe a Área (em km²): ");
+    scanf("%f", &area2);
+
+    printf("Informe o PIB (em bilhões de reais): ");
+    scanf("%f", &pib2);
+
+    printf("Informe o Número de Pontos Turísticos: ");
+    scanf("%d", &pontosTuristicos2);
 return 0;
 } 
