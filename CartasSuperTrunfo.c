@@ -9,6 +9,6 @@ int main() {
     float area1;
     float pib1;
     int pontosTuristicos1;
-
+ 
 return 0;
 } 
